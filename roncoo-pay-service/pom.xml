@@ -83,11 +83,11 @@
 					<encoding>UTF-8</encoding>
 					<compilerArgs>
 						<arg>-verbose</arg>
-						<arg>-Xlint:unchecked</arg>
-						<arg>-Xlint:deprecation</arg>
-						<arg>-bootclasspath</arg>
-						<arg>-extdirs</arg>
-						<arg>${project.basedir}/lib</arg>
+						<!--<arg>-Xlint:unchecked</arg>-->
+						<!--<arg>-Xlint:deprecation</arg>-->
+						<!--<arg>-bootclasspath</arg>-->
+						<!--<arg>-extdirs</arg>-->
+						<!--<arg>${project.basedir}/lib</arg>-->
 					</compilerArgs>
 				</configuration>
 			</plugin>
