@@ -7,6 +7,8 @@
 *.class
 *.tmp
 /tomcat.10025
+/.externalToolBuilders
+/maven-eclipse.xml
 
 # Package Files #
 *.jar
