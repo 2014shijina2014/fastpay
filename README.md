@@ -35,14 +35,15 @@ Fastpay的目标是打造一款开源的、轻量级的、微服务化的、可�
 
 ## 总体架构
 
-![](doc/fastpay-arch.png)
+![](doc/images/fastpay-arch.png)
 
-## Devops
+## 分支管理
 
-开发分支：dev_chengyan_running
-稳定分支：develop
+- 生产分支：master，生产环境发版本
+- 稳定分支：develop，对应阿里云QA环境
+- 开发分支：dev_chengyan_running、dev_yanpeng......
 
-大家开发在dev_chengyan_running切分支，然后往dev_chengyan_running上合并，确定可以对外发版后，再合并到master。
+版本管理流程：每位开发者从develop分支切自己的开发分支，例如：dev_chengyan_running、dev_yanpeng，开发完成并测试，合并到develop上，QA测试后对外发版后，再合并到master。
 
 ## 项目结构
 
@@ -56,6 +57,25 @@ Fastpay的目标是打造一款开源的、轻量级的、微服务化的、可�
 8. fast-pay-web-gateway: 支付网关工程，部署tomcat启动。
 9. fast-pay-web-merchant: 商户后台工程，部署tomcat启动。
 10. fast-pay-web-sample-shop: 模拟商城工程，部署tomcat启动。
+
+
+## 角色划分
+
+- 发起人：艳鹏
+- 产品：东超
+- 架构：艳鹏、张城(freewolf)、杨彪
+- 开发负责人：程延
+- 测试负责人：葛亮
+- Devops负责人：葛亮（Software Luke）
+- 文档负责人：TiRE、雷默
+- 账务账户：贾博彦
+- 核心交易：李鹏（oldman）、宇涛、孙牧原、梁鹏举
+- 运营平台：李鹏（oldman）、布娃娃、梁鹏举
+- 商户平台：李鹏（oldman）、布娃娃、梁鹏举
+- 客户通知：李栋梁（蜗牛君）
+- 清算结算：柯常荣
+- 渠道路由：马刚、李勇
+
 
 ## 密码申请
 
@@ -74,7 +94,7 @@ Fastpay的目标是打造一款开源的、轻量级的、微服务化的、可�
 
 加入项目请关注云时代架构公众号，后台回复"+fastpay"，然后，提供微信、github账户号等。
 
-![](云时代架构公众号.jpg)
+![](doc/images/云时代架构公众号.jpg)
 
 
  
