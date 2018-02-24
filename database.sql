@@ -620,6 +620,7 @@ INSERT INTO seq_table (SEQ_NAME, CURRENT_VALUE, INCREMENT, REMARK) VALUES ('RECO
 /*==============================================================*/
 /* create function                                              */
 /*==============================================================*/
+delimiter //
 CREATE FUNCTION `FUN_SEQ`(SEQ VARCHAR(50)) RETURNS BIGINT(20)
 BEGIN
      UPDATE SEQ_TABLE
@@ -627,8 +628,9 @@ BEGIN
      WHERE  SEQ_NAME=SEQ;
      RETURN FUN_SEQ_CURRENT_VALUE(SEQ);
 END;
+//
 
-
+delimiter //
 CREATE FUNCTION `FUN_SEQ_CURRENT_VALUE`(SEQ VARCHAR(50)) RETURNS BIGINT(20)
 BEGIN
     DECLARE VALUE INTEGER;
@@ -638,7 +640,9 @@ BEGIN
     WHERE SEQ_NAME=SEQ;
     RETURN VALUE;
 END;
+//
 
+delimiter //
 CREATE FUNCTION `FUN_SEQ_SET_VALUE`(SEQ VARCHAR(50), VALUE INTEGER) RETURNS BIGINT(20)
 BEGIN
      UPDATE SEQ_TABLE 
@@ -646,20 +650,24 @@ BEGIN
      WHERE SEQ_NAME=SEQ;
      RETURN FUN_SEQ_CURRENT_VALUE(SEQ);
 END;
+//
 
+delimiter //
 CREATE FUNCTION  FUN_NOW()
  RETURNS DATETIME
 BEGIN 
 RETURN now();
 END;
+//
 
 
 -- 时间函数
-
+delimiter //
 CREATE FUNCTION `FUN_DATE_ADD`(STR_DATE VARCHAR(10), STR_INTERVAL INTEGER) RETURNS DATE
 BEGIN
      RETURN date_add(STR_DATE, INTERVAL STR_INTERVAL DAY);
 END;
+//
 
 
 
