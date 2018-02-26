@@ -78,7 +78,6 @@
 		<activeMQ.version>5.11.4</activeMQ.version>
 		<javassist.version>3.12.1.GA</javassist.version>
 		<transaction.version>1.1</transaction.version>
-
 	</properties>
 
 	<dependencyManagement>

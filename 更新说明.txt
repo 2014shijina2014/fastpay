@@ -9,6 +9,3 @@
 4、修改roncoo-pay-app-order-polling订单轮询的查询次数为10次和缩短查询的时间间隔
 
 5、修改支付宝底层实现，抽取成工具类方便移植使用（注:不在需要读取zfbinfo.properties固定的配置文件，可以自定义配置文件）；
-
-
-fsdfsd
