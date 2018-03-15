@@ -37,6 +37,7 @@
 		<module>fast-pay-app-order-polling</module>
 		<!-- 网店示例-->
 		<module>fast-pay-web-sample-shop</module>
+		<module>fast-pay-app-notify-sboot</module>
 	</modules>
 
 	<!-- 配置maven地址 -->
