@@ -23,7 +23,7 @@ public class NotifyParamConfig {
 
     private String successValue;// 通知后用于判断是否成功的返回值。由HttpResponse获取
 
-    public Map<Integer, Integer> getNotifyParam() {
+    public static Map<Integer, Integer> getNotifyParam() {
         return notifyParam;
     }
 
@@ -39,7 +39,7 @@ public class NotifyParamConfig {
         this.successValue = successValue;
     }
 
-    public Integer getMaxNotifyTime() {
+    public static Integer getMaxNotifyTime() {
         return notifyParam == null ? 0 : notifyParam.size();
     }
 
