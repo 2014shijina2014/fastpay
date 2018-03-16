@@ -38,6 +38,9 @@ public class TradeHandlerProcessor {
     @Autowired
     private NotifyPersistService notifyPersistService;
 
+    @Autowired
+    private NotifyParamConfig notifyParamConfig;
+
     @RabbitHandler
     public void process(String content) {
         DLXMessage message = JsonUtils.jsonToPojo(content, DLXMessage.class);
@@ -65,9 +68,7 @@ public class TradeHandlerProcessor {
             Integer responseStatus = result.getStatusCode();*/
 
             notifyRecord.setNotifyTimes(notifyTimes + 1);  //通知次数加1
-            //String successValue = notifyParam.getSuccessValue();
-            String successValue = "";
-
+            String successValue = notifyParamConfig.getSuccessValue();
             String responseMsg = "";
 
             Integer responseStatus = result.getStatusCode();
@@ -123,13 +124,13 @@ public class TradeHandlerProcessor {
         //最大通知次数
         Integer maxNotifyTime = 0;
         try {
-            maxNotifyTime = NotifyParamConfig.getMaxNotifyTime();
+            maxNotifyTime = notifyParamConfig.getMaxNotifyTime();
         } catch (Exception e) {
             log.error("maxNotifyTime failure{}",e);
         }
         if (notifyTimes < maxNotifyTime) { //通知次数没有达到最大通知次数，需要继续通知
             Integer nextKey = notifyRecord.getNotifyTimes() + 1;
-            Map<Integer, Integer> timeMap = NotifyParamConfig.getNotifyParam();
+            Map<Integer, Integer> timeMap = notifyParamConfig.getNotifyParam();
             Integer next = timeMap.get(nextKey);
             long time = 0;  //延迟时间，根据通知次数递增
             if (next != null) {
