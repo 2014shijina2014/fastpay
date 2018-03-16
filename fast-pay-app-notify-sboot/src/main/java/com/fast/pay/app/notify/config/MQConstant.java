@@ -28,4 +28,6 @@ public class MQConstant {
     //Hello 测试消息队列名称
     //public static final String HELLO_QUEUE_NAME = "HELLO";
 
+
+
 }
