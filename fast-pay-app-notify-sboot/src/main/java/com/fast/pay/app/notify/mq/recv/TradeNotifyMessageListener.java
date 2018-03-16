@@ -53,7 +53,7 @@ public class TradeNotifyMessageListener {
             notifyRecord.setCreateTime(new Date());
             notifyRecord.setLastNotifyTime(new Date());
 
-            if ( !StringUtils.isEmpty(notifyRecord.getId())){
+            if (!StringUtils.isEmpty(notifyRecord.getId())){
                 RpNotifyRecord notifyRecordById = rpNotifyService.getNotifyRecordById(notifyRecord.getId());
                 if (notifyRecordById != null){
                     return;
