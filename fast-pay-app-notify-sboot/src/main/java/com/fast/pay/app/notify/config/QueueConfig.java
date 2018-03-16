@@ -12,9 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @Author chaun.lee
  * @Date 2018/3/15 22:20
- * @Company chaun
  * Created by Administrator on 2018/3/15.
  */
 @Configuration
@@ -54,7 +52,7 @@ public class QueueConfig {
     }
 
     /*********************    hello 队列  测试    *****************/
-    @Bean
+    /*@Bean
     public Queue queue() {
         Queue queue = new Queue(MQConstant.HELLO_QUEUE_NAME,true);
         return queue;
@@ -63,5 +61,5 @@ public class QueueConfig {
     @Bean
     public Binding binding() {
         return BindingBuilder.bind(queue()).to(defaultExchange()).with(MQConstant.HELLO_QUEUE_NAME);
-    }
+    }*/
 }

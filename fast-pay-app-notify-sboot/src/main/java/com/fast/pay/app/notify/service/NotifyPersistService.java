@@ -5,8 +5,6 @@ package com.fast.pay.app.notify.service;/**
 import com.fast.pay.app.notify.entity.RpNotifyRecord;
 
 /**
- * Created by luban
- * User: lic
  * Date: 2018/3/16
  * Time: 10:37
  * Desc xxx

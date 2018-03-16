@@ -12,9 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * @Author chaun.lee
  * @Date 2018/3/15 22:19
- * @Company chaun
  * Created by Administrator on 2018/3/15.
  * 消息队列服务接口实现
  */

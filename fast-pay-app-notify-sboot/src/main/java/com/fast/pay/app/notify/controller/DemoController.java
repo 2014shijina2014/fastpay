@@ -10,11 +10,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.Map;
 
 /**
- * Created by luban
  * User: lic
  * Date: 2018/3/15
  * Time: 15:29
- * Desc xxx
  */
 @Controller
 @Slf4j

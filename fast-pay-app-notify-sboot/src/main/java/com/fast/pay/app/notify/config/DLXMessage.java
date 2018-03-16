@@ -3,9 +3,7 @@ package com.fast.pay.app.notify.config;
 import java.io.Serializable;
 
 /**
- * @Author chaun.lee
  * @Date 2018/3/15 22:23
- * @Company chaun
  * Created by Administrator on 2018/3/15.
  */
 public class DLXMessage implements Serializable {

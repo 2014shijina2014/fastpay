@@ -19,9 +19,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
- * @Author chaun.lee
  * @Date 2018/3/15 22:33
- * @Company chaun
  * Created by Administrator on 2018/3/15.
  * 处理交易通知信息并异步通知商户
  */

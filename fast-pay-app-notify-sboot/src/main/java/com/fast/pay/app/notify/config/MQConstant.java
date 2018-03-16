@@ -1,9 +1,7 @@
 package com.fast.pay.app.notify.config;
 
 /**
- * @Author chaun.lee
  * @Date 2018/3/15 22:20
- * @Company chaun
  * Created by Administrator on 2018/3/15.
  * Rabbit消息队列相关常量
  */

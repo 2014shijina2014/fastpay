@@ -13,9 +13,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
 /**
- * @Author chaun.lee
  * @Date 2018/3/15 22:15
- * @Company chaun
  * Created by Administrator on 2018/3/15.
  */
 @Configuration

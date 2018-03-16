@@ -19,8 +19,6 @@ import org.springframework.util.StringUtils;
 import java.util.Date;
 
 /**
- * Created by luban
- * User: lic
  * Date: 2018/3/15
  * Time: 15:45
  * Desc 交易异步通知监听消息队列

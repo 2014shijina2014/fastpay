@@ -12,8 +12,6 @@ import org.springframework.stereotype.Service;
 import java.util.Date;
 
 /**
- * Created by luban
- * User: lic
  * Date: 2018/3/16
  * Time: 10:37
  * Desc xxx
