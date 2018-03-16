@@ -6,6 +6,7 @@ import com.fast.pay.app.notify.common.BaseEntity;
 import java.util.Date;
 
 public class RpNotifyRecordLog extends BaseEntity {
+
     /** 通知记录ID **/
     private String notifyId;
 

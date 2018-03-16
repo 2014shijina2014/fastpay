@@ -26,7 +26,6 @@ import java.util.Map;
  * Created by Administrator on 2018/3/15.
  */
 public class HttpClientUtil {
-
     private HttpClientUtil(){
 
     }

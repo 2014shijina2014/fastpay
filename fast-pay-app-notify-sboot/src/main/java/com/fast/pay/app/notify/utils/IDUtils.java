@@ -13,7 +13,6 @@ import java.util.UUID;
  * Desc xxx
  */
 public class IDUtils {
-
     private IDUtils(){
 
     }

@@ -23,6 +23,7 @@ import java.util.Date;
  * 基类.
  */
 public class BaseEntity {
+
 	private String id = IDUtils.uuid();// 主键ID.
 	private Integer version = 0;// 版本号默认为0
 	private String status;// 状态 PublicStatusEnum

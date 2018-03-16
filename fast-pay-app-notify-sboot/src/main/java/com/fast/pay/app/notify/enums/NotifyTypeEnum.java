@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 public enum NotifyTypeEnum {
-
     /**
      * 商户通知
      */

@@ -13,7 +13,6 @@ import java.util.List;
  * Created by Administrator on 2018/3/15.
  */
 public class JsonUtils {
-
     // 定义jackson对象
     private static final ObjectMapper MAPPER = new ObjectMapper();
 

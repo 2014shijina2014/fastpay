@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 public enum NotifyStatusEnum {
-
 	CREATED("通知记录已创建"),
     SUCCESS("通知成功"),
     FAILED("通知失败"),

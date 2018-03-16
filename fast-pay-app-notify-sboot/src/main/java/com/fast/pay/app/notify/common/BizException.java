@@ -19,7 +19,6 @@ package com.fast.pay.app.notify.common;
  * 业务异常基类，所有业务异常都必须继承于此异常 .
  */
 public class BizException extends RuntimeException {
-
     private static final long serialVersionUID = -5875371379845226068L;
 
     /**
