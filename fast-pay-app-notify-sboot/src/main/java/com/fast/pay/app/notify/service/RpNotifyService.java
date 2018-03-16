@@ -7,7 +7,6 @@ import com.fast.pay.app.notify.entity.RpNotifyRecordLog;
  * Created by Administrator on 2018/3/16.
  */
 public interface RpNotifyService {
-
     /**
      * 通过ID获取通知记录
      *
