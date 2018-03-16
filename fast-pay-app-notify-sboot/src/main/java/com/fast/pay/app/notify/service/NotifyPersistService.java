@@ -1,11 +1,18 @@
-package com.fast.pay.app.notify.service;
+package com.fast.pay.app.notify.service;/**
+ * Created by Administrator on 2018/3/16.
+ */
 
-import com.fast.pay.notify.entity.RpNotifyRecord;
+import com.fast.pay.app.notify.entity.RpNotifyRecord;
 
 /**
- * Created by Administrator on 2018/3/15.
+ * Created by luban
+ * User: lic
+ * Date: 2018/3/16
+ * Time: 10:37
+ * Desc xxx
  */
 public interface NotifyPersistService {
+
     /**
      * 创建商户通知记录.<br/>
      *
@@ -45,5 +52,4 @@ public interface NotifyPersistService {
      */
     public long saveNotifyRecordLogs(String notifyId, String merchantNo, String merchantOrderNo, String request, String response,
                                      int httpStatus);
-
 }
