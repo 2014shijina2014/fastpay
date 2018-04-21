@@ -1,0 +1,7 @@
+1.code review 分二层, 第一层是大家review各自代码,第二层是你pull request的时候到dev的时候 
+由架构组 or peng 去review 双次review 保证代码质量
+
+2.第二次review 是pull request了其实架构 是可以看到你提交的代码的 突然发现代码有问题 直接打回
+
+
+3.这样我们 的代码 就 主要是 dev  feture  hotfix够了, master 和tag做为归档发布用
