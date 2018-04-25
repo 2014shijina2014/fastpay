@@ -76,7 +76,7 @@
   </div>
 </div>
 
-<div class="footer w100">
+<%--<div class="footer w100">
   <div class="container">
     <ul class="con-content">
       <li><strong class="a">联系电话：</strong></li>
@@ -95,7 +95,7 @@
   </div>
   <div class="copyright">Copyright © 2015-2016 广州市领课网络科技有限公司版权所有</div>
   <p class="yue"><a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备16009964号</a></p>
-</div>
+</div>--%>
 </body>
 
 </html>
