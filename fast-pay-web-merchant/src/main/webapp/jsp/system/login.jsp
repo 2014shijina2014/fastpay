@@ -12,8 +12,8 @@
 
 <body class="hold-transition login-page">
 <div class="login-box">
-  <div class="login-logo">
-    <img src="${baseURL }/lte/images/logo2.png" />
+  <div class="login-logo ">
+    <img src="${baseURL }/lte/images/fastpay_logo.png" />
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">

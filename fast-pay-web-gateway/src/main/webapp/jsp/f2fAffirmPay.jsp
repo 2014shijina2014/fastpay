@@ -9,7 +9,7 @@
 %>
 <html>
 <head>
-    <title>Title</title>
+    <title>云时代架构社区</title>
     <script type="text/javascript" src="${path}js/jquery-1.7.2.min.js"></script>
 </head>
 <body>

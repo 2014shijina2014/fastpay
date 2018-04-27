@@ -54,7 +54,7 @@ display:none;;
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>云架构社区</b></span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><img src="${baseURL }/lte/images/logo.png" /></span>
+      <span class="logo-lg"><img src="${baseURL }/lte/images/fastpay_logo.png" /></span>
     </a>
 
     <!-- Header Navbar: style can be found in header.less -->
@@ -269,7 +269,7 @@ display:none;;
   <footer class="main-footer">
     <div class="pull-right hidden-xs">
     </div>
-    <strong>Copyright &copy; 2015-2016 <a href="http://roncoo.com">广州市领课网络科技有限公司</a></strong> 版权所有
+    <strong>Copyright &copy; 2015-2016 <a href="http://www.cloudate.net/">云时代架构社区</a></strong> 版权所有
   </footer>
 
 
