@@ -14,7 +14,7 @@
 		<div id="login_header">
 			<h1 class="login_logo">
 				<a href="http://demo.dwzjs.com">
-					<img src="${baseURL }/dwz/themes/default/images/login_logo.png" />
+					<img src="${baseURL }/dwz/themes/default/images/fastpay_logo.png" />
 				</a>
 			</h1>
 			<div class="login_headerContent">
@@ -25,9 +25,12 @@
 						</li>
 					</ul>
 				</div>
-				<h2 class="login_title">
+				<%--<h2 class="login_title">
 					<img src="${baseURL }/dwz/themes/default/images/login_title.png" />
-				</h2>
+				</h2>--%>
+				<h1 align="center" style="margin-top: 25px">
+					<font size="10" color="">登录快付支付平台</font>
+				</h1>
 			</div>
 		</div>
 		<div id="login_content">
