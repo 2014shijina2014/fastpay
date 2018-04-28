@@ -27,6 +27,8 @@
 	<mvc:resources mapping="/js/**" location="/js/" cache-period="31536000"/>
 	<mvc:resources mapping="/pay_files/**" location="/pay_files/" cache-period="31536000"/>
 	<mvc:resources mapping="/images/**" location="/images/" cache-period="31536000"/>
+    <mvc:resources mapping="/css/**" location="/css/" cache-period="31536000"/>
+    <mvc:resources mapping="/fonts/**" location="/fonts/" cache-period="31536000"/>  
 
 	<bean id="FastPayExceptionResolver" class="com.fast.pay.resolver.FastPayExceptionResolver"></bean>
 </beans>
