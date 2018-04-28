@@ -89,7 +89,7 @@
 			</div>
 		</div>
 		<div id="login_footer">
-			Copyright &copy; 2015-2016
+			© Copyright 2018-2019 ,cloudate.net ifastpay.cn 版权所有 云时代架构社区
 			<a href="http://www.cloudate.net/" target="_blank">云时代架构社区</a>
 		</div>
 	</div>
