@@ -12,7 +12,7 @@ Fastpay的目标是打造一款开源的、轻量级的、微服务化的、可�
 
 ## 演示地址
 
-在线支付演示：http://47.94.238.162:8080/fast-pay-web-sample-shop/
+在线支付演示：http://ifastpay.cn/   http://www.ifastpay.cn/
 
 当前只支持微信支付，支付宝、公众号等在开发中。
 
