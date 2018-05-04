@@ -63,3 +63,17 @@ sleep 5s
 #cp ~/weixinpay_config.properties $fastpay/fast-pay-service/src/main/resources/weixinpay_config.properties
 
 exit 0
+
+#######################################################
+BUILD_ID=dontKillMeTomcatMaster0
+#clear tomcat cache it诸葛亮
+#post-shell execution
+cd /mnt/apache-tomcat-9.0.6/work/Catalina
+rm -rf localhost
+
+#restart tomcat server
+cd /mnt/apache-tomcat-9.0.6/bin
+./restartTomcat.sh
+
+netstat -ntlp
+exit 0
