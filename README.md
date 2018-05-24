@@ -12,8 +12,9 @@ Fastpay的目标是打造一款开源的、轻量级的、微服务化的、可�
 
 ## 演示地址
 
-在线支付演示：http://ifastpay.cn/   http://www.ifastpay.cn/
+在线支付演示：http://www.ifastpay.cn/
 天下技术，为快不破，天下支付，唯快才付。 当前只支持微信支付，支付宝、公众号等在开发中。
+云时代社区地址： http://www.cloudate.net/
 
 ## 技术亮点
 
